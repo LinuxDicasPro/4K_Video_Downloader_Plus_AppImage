@@ -4,7 +4,6 @@
 #
 ####################################
 
-
 destdir=~/__APPIMAGE__
 test -e "../_APPIMAGE" && destdir="../_APPIMAGE" # Opcional
 
@@ -60,7 +59,7 @@ test ! -e "appimagetool-x86_64.AppImage" && {
 #########
 
 link_prg="https://dl.4kdownload.com/app/4kvideodownloaderplus_${version}_amd64.tar.bz2"
-link_svg="https://static.4kdownload.com/main/img/redesign/videodownloader.a855bb9dddb2.svg"
+link_svg="https://raw.githubusercontent.com/LinuxDicasPro/4K_Video_Downloader_Plus_AppImage/refs/heads/master/videodownloaderplus.e1538463172d.svg"
 
 #########
 
